@@ -40,33 +40,13 @@ const Landing = () => {
             <p><i>arth48414@gmail.com</i></p>
 
         </div>
-
+              
         
-        <footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">AP Contact</h5>
-                <p class="grey-text text-lighten-4">Powerful Email Marketing Made Easy.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Website Links</h5>
-                <ul>
-                <li><a class="grey-text text-lighten-3" href="/">Homepage</a></li>
-                <li><a class="grey-text text-lighten-3" href="/surveys">Dashboard</a></li>
-                <li><a class="grey-text text-lighten-3" href="/auth/google">Login With Google</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy and Terms of Use</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Developed with ♡ by Arth Patel.
-            <a class="grey-text text-lighten-4 right" href="/">Mobile Version Under Development.</a>
+            Copyright © 2020 - Developed by Arth Patel. All rights reserved.
             </div>
           </div>
-        </footer>
         
         </div>
 
