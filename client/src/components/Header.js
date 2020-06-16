@@ -12,7 +12,8 @@ class Header extends Component {
 
             case false:
                 return (
-                    <li><a href="/auth/google">Login with Google</a></li>
+                    
+                    <li><a href="/auth/google">Login With Google</a></li>
                     );
             
             default:
@@ -30,7 +31,7 @@ class Header extends Component {
     render() {
         return (
             <nav>
-                <div className="nav-wrapper">
+                <div className="nav-wrapper orange darken-4">
                 <Link
                  to={this.props.auth ? '/surveys' : '/'}
                  className="left brand-logo"
