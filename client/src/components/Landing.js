@@ -44,7 +44,7 @@ const Landing = () => {
         
           <div class="footer-copyright">
             <div class="container">
-            Copyright © 2020 - Developed by Arth Patel. All rights reserved.
+            Copyright © 2020 - Developed by Arth Patel using React.js, Node.js, Express.js, MongoDB, Mongoose, and Redux. All rights reserved.  
             </div>
           </div>
         
