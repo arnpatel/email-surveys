@@ -33,7 +33,10 @@ const Landing = () => {
             <p><i>We understand your needs, No-contract, Only prepaid service to bring more accessibility.</i></p>
             <p><i>1 Survey - 1 Dollar - unlimited receipent attachment</i></p>
             <p><i>Minimum Purchase - Dollar 5</i></p>
-            <p><i>Contact us to make larger one time purchases</i></p>
+            <p><i>Contact us to place a larger one time purchase order.</i></p>
+
+            <h5><u>Contact Us:</u></h5>
+            <p><i>arth48414@gmail.com</i></p>
 
         </div>
         
