@@ -7,11 +7,12 @@ const Landing = () => {
 
     return (
 
-        document.body.style.background = "url('https://edgewater-digital.com/wp-content/uploads/2018/10/Search-Engine-Marketing-Background.jpg')",
+        document.body.style.background = "url('https://www.solidbackgrounds.com/images/950x350/950x350-teal-solid-color-background.jpg')",
             
         <div style={{ textAlign: 'center' }} className="white-text">
-            <h1 style={{color: '#009999'}}>
+            <h1 style={{color: 'white'}}><b>
                 AP Contact
+                </b>
             </h1>
             <h4>
                 Powerful Email Marketing Made Easy.
