@@ -15,7 +15,7 @@ const Landing = () => {
             <h4>
                 Powerful Email Marketing Made Easy.
             </h4>
-
+        <br />
             <div>
                 <h5><u>Application Features:</u></h5>
                 <p><i>Send bulk survey emails that reach your users.</i></p>
@@ -26,6 +26,7 @@ const Landing = () => {
                 <p><i>We surely help your business reach more customers.</i></p>
 
             </div>
+            <br />
             <div>
                 <h5><u>Pricing:</u></h5>
                 <p><i>We understand your needs, No-contract, Prepaid service to bring more accessibility.</i></p>
@@ -34,6 +35,7 @@ const Landing = () => {
                 <p><i>Contact us to place a larger one time purchase order.</i></p>
 
             </div>
+            <br />
             <div>
                 <h5><u>Contact Us:</u> </h5><h6>arth48414@gmail.com</h6>
                 <p><i>arth48414@gmail.com</i></p>
