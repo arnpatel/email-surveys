@@ -43,8 +43,9 @@ const Landing = () => {
             
         <footer class="page-footer grey darken-2" style= {{position:"fixed", bottom:"0", left:"0", width:"100%"}}>
           <div class="footer-copyright">
+          
             <div class="container">
-            Copyright ©2020 Developed By Arth Patel.
+            <a href="/privacy-policy">Privacy Policy</a>   -   Copyright ©2020 Developed By Arth Patel    -  <a href="/terms-and-conditions">Terms and Conditions</a>
             </div>
           </div>
         </footer>
