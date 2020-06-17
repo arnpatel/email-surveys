@@ -11,14 +11,14 @@ class SurveyForm extends Component {
     renderFields() {
         return _.map(formFields, ({ label, name }) => {
             return (
-            <Field key={name} component={SurveyField} type="text" label={label} name={name}/>
+            <Field key={name} component={SurveyField} type="text" label={label} name={name} />
             );
         });
     }
 
     render() {
         return (
-            <div>
+            <div style={{ margin: '0 45px'}}> 
                 <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                 {this.renderFields()}
                 <Link to="/surveys" className="orange darken-4 btn-flat white-text">

@@ -11,9 +11,10 @@ class Header extends Component {
                 return;
 
             case false:
-                return (
+                return [
+                    <li><Link to="/contact-us">Contact Us</Link></li>,
                     <li><a href="/auth/google">Login With Google</a></li>
-                    );
+                ];
             
             default:
                 return [
@@ -21,7 +22,7 @@ class Header extends Component {
                     <li key="3" style={{ margin: '0 10px'}}>
                         Credits: {this.props.auth.credits}
                     </li>,
-                    <li key="4"><a href="/surveys">Dashboard</a></li>,
+                    <li key="4"><Link to='/surveys'>Dashboard</Link></li>,
                 <li key="2"><a href="/api/logout">Logout</a></li>
                 ];
         }
