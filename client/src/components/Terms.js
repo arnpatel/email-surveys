@@ -4,18 +4,15 @@ const Terms = () => {
 
     return (
         document.body.style.background = "black",
-        <div style={{ textAlign: 'center' }} className="white-text black" >
+        <div  className="white-text black" >
             
-              <img src="logo.png" alt="" class="circle responsive-img">
-            </img>
-
-            <h1 style={{color: 'white'}}><b>
+            <h1 style={{color: 'white'}} style={{ textAlign: 'center' }}><b>
     
                 Terms And Conditions 
                 <h5>Updated 06/16/2020</h5>
                 </b>
             </h1>
-            <div style={{ textAlign: 'left'}} > 
+            <div style={{ textAlign: 'left'}} style={{ margin: '0 45px'}}> 
 
 
 
