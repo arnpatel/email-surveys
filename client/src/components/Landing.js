@@ -1,10 +1,5 @@
 import React from 'react';
 
-//document.body.style.background = "url('https://edgewater-digital.com/wp-content/uploads/2018/10/Search-Engine-Marketing-Background.jpg')";
-//document.body.style.background = "url('https://www.solidbackgrounds.com/images/950x350/950x350-teal-solid-color-background.jpg')",
-
-
-
 const Landing = () => {
 
     return (
@@ -46,7 +41,7 @@ const Landing = () => {
 
         
             
-        <footer class="page-footer orange darken-4" style= {{position:"fixed", bottom:"0", left:"0", width:"100%"}}>
+        <footer class="page-footer grey darken-2" style= {{position:"fixed", bottom:"0", left:"0", width:"100%"}}>
           <div class="footer-copyright">
             <div class="container">
             Copyright ©2020 Developed By Arth Patel.
