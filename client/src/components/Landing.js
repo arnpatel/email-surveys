@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
 
@@ -45,7 +46,7 @@ const Landing = () => {
           <div class="footer-copyright">
           
             <div class="container">
-            <a href="/privacy-policy">Privacy Policy</a>   -   Copyright ©2020 Developed By Arth Patel    -  <a href="/terms-and-conditions">Terms and Conditions</a>
+            <Link to='/privacy-policy'>Privacy Policy</Link>   -   Copyright ©2020 Developed By Arth Patel    -  <Link to='/terms-and-conditions'>Terms And Conditions</Link>
             </div>
           </div>
         </footer>
