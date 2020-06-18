@@ -2,16 +2,23 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Payments from './Payments';
+import M from 'materialize-css';
+import options from 'materialize-css';
 
 class Header extends Component {
 
     renderContent() {
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+          });
         switch (this.props.auth) {
             case null:
                 return;
 
             case false:
                 return [
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>,
                     <li><Link to="/contact-us">Contact Us</Link></li>,
                     <li><a href="/auth/google">Login With Google</a></li>
                 ];
