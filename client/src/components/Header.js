@@ -7,11 +7,12 @@ import options from 'materialize-css';
 
 class Header extends Component {
 
+
+
+    
+
     renderContent() {
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, options);
-          });
+        
         switch (this.props.auth) {
             case null:
                 return;
@@ -40,6 +41,9 @@ class Header extends Component {
         }
     }
 
+
+
+
     render() {
         return (
             <nav>
@@ -61,6 +65,13 @@ class Header extends Component {
     }
 
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
 
 
 
