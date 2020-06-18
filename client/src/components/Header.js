@@ -17,8 +17,10 @@ class Header extends Component {
 
             case false:
                 return [
+                    <div>
                     <li><Link to="/contact-us">Contact Us</Link></li>
                     <li><a href="/auth/google">Login With Google</a></li>
+                    </div>
                 ];
             
             default:
@@ -57,19 +59,7 @@ class Header extends Component {
     }
 
 
-
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, options);
-      });
-    
-
 }
-
-
-
-
-
 
 
 function mapStateToProps({ auth }) {
