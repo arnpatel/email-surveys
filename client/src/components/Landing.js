@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CookieConsent from "react-cookie-consent";
 
 const Landing = () => {
 
@@ -38,13 +39,12 @@ const Landing = () => {
             <br />
             <div>
                 <h5><u>Contact Us:</u> </h5><h6>arth48414@gmail.com</h6>
-                <p><i>arth48414@gmail.com</i></p>
-                <h5><u>Contact Us:</u></h5>
+                <br />
             </div>
 
         
             
-        <footer class="page-footer grey darken-2" style= {{position:"fixed", bottom:"0", left:"0", width:"100%"}}>
+        <footer class="page-footer grey darken-2" style= {{position:"moving", bottom:"0", left:"0", width:"100%"}}>
           <div class="footer-copyright">
           
             <div class="container">
@@ -55,7 +55,7 @@ const Landing = () => {
 
 
 
-
+        <CookieConsent>By tapping on 'I Understand', you agree to us and our partners' use of cookies and other technologies to process your personal data to personalize your experience and deliver tailored adversiting to you, on and off our sites. Please read our <Link to='/privacy-policy'>Privacy Policy</Link> and <Link to='/terms-and-conditions'>Terms and Conditions</Link></CookieConsent>
           
         
         </div>
