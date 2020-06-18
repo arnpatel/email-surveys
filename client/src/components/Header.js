@@ -18,9 +18,14 @@ class Header extends Component {
 
             case false:
                 return [
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>,
-                    <li><Link to="/contact-us">Contact Us</Link></li>,
+                    <div>
+                    <li><Link to="/contact-us">Contact Us</Link></li>
                     <li><a href="/auth/google">Login With Google</a></li>
+                    <ul class="sidenav" id="mobile-demo">
+                    <li><Link to="/contact-us">Contact Us</Link></li>
+                    <li><a href="/auth/google">Login With Google</a></li>
+                    </ul>
+                    </div>
                 ];
             
             default:
