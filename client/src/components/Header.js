@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Payments from './Payments';
-import M from 'materialize-css';
-import options from 'materialize-css';
 
 class Header extends Component {
 
@@ -19,14 +17,8 @@ class Header extends Component {
 
             case false:
                 return [
-                    <div>
                     <li><Link to="/contact-us">Contact Us</Link></li>
                     <li><a href="/auth/google">Login With Google</a></li>
-                    <ul class="sidenav" id="mobile-demo">
-                    <li><Link to="/contact-us">Contact Us</Link></li>
-                    <li><a href="/auth/google">Login With Google</a></li>
-                    </ul>
-                    </div>
                 ];
             
             default:
@@ -64,13 +56,17 @@ class Header extends Component {
         );
     }
 
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+      });
+    
+
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
 
 
 
