@@ -47,6 +47,7 @@ class Header extends Component {
                  className="left brand-logo"
                  style={{ margin: '0 10px'}}
                  >
+                     <i class="material-icons">email</i>
                     AP Contact
                 </a>
                 <ul className="right">
