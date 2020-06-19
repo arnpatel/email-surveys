@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Payments from './Payments';
+import M from  'materialize-css/dist/js/materialize.min.js';
 
 class Header extends Component {
-
-
 
     
 
     renderContent() {
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+          });
         
         switch (this.props.auth) {
             case null:
@@ -39,6 +42,7 @@ class Header extends Component {
 
     render() {
         return (
+            <div>
             
             <nav>
                 <div className="nav-wrapper cyan darken-3">
@@ -47,19 +51,28 @@ class Header extends Component {
                  className="left brand-logo"
                  style={{ margin: '0 10px'}}
                  >
+                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                      <i class="material-icons">email</i>
                     AP Contact
                 </a>
-                <ul className="right">
+                <ul class="right hide-on-med-and-down">
                     {this.renderContent()}
                 </ul>
                 </div>
             </nav>
+            <ul class="sidenav" id="mobile-demo">
+            <li><a href="/contact-us">Contact Us</a></li>
+            <li><a href="/auth/google">Login With Google</a></li>
+          </ul>
+                  
+            </div>
 
             
         );
     }
 
+
+    
 
 }
 

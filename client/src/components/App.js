@@ -12,6 +12,7 @@ import Privacy from './Privacy';
 import Terms from './Terms';
 import NotFound from './NotFound';
 import ContactUs from './ContactUs'
+import MyCredits from './MyCredits'
 
 class App extends Component {
     componentDidMount() {
@@ -35,6 +36,7 @@ class App extends Component {
                     <Route path="/privacy-policy" component={Privacy} />
                     <Route path="/terms-and-conditions" component={Terms} />
                     <Route path="/contact-us" component={ContactUs} />
+                    <Route path="/my-credits" component={MyCredits} />
                     <Route path="*" component={NotFound} />
                     
                         </Switch>
