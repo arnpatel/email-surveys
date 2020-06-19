@@ -11,7 +11,7 @@ import SurveyNew from './surveys/SurveyNew';
 import Privacy from './Privacy';
 import Terms from './Terms';
 import NotFound from './NotFound';
-import ContactUs from './ContactUs';
+import ContactUs from './ContactUs'
 
 class App extends Component {
     componentDidMount() {

@@ -3,10 +3,10 @@ import React from 'react';
 const Terms = () => {
 
     return (
-        document.body.style.background = "black",
-        <div  className="white-text black" >
+        document.body.style.background = "#e0f2f1",
+        <div  className="black-text #e0f2f1" >
             
-            <h1 style={{color: 'white'}} style={{ textAlign: 'center' }}><b>
+            <h1 style={{color: 'black'}} style={{ textAlign: 'center' }}><b>
     
                 Terms And Conditions 
                 <h5>Updated 06/16/2020</h5>
@@ -237,6 +237,19 @@ const Terms = () => {
 
 
 
+
+            </div>
+
+
+
+
+
+
+            <div style={{ textAlign: 'center' }} class="container" className="cyan darken-3 white-text">
+                <br />
+            <a href='/privacy-policy' className="black-text">Privacy Policy</a>   -   Copyright ©2020 Developed By Arth Patel    -  <a href='/terms-and-conditions' className="black-text">Terms And Conditions</a>
+            <br />
+            <br />
 
             </div>
             </div>

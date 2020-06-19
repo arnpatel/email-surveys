@@ -18,7 +18,7 @@ class Header extends Component {
             case false:
                 return [
                     <div>
-                    <li><Link to="/contact-us">Contact Us</Link></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
                     <li><a href="/auth/google">Login With Google</a></li>
                     </div>
                 ];
@@ -41,15 +41,15 @@ class Header extends Component {
     render() {
         return (
             <nav>
-                <div className="nav-wrapper grey darken-2">
-                <Link
-                 to={this.props.auth ? '/surveys' : '/'}
+                <div className="nav-wrapper cyan darken-3">
+                <a
+                 href={this.props.auth ? '/surveys' : '/'}
                  className="left brand-logo"
                  style={{ margin: '0 10px'}}
                  >
                      <i class="material-icons">email</i>
                     AP Contact
-                </Link>
+                </a>
                 <ul className="right">
                     {this.renderContent()}
                 </ul>

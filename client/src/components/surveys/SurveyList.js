@@ -29,7 +29,8 @@ renderSurveys() {
           };
 
         return (
-                <div className="card grey darken-1 white-text" key={survey._id} style={{ margin: '15px'}}>
+            document.body.style.background = "#e0f2f1",
+                <div className="card grey darken-1 white-text " key={survey._id} style={{ margin: '15px'}}>
                     <div className="card-content">
                     <span className="card-title">{survey.title}</span>
                     <p>{survey.body}</p>
