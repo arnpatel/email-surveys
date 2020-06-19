@@ -38,7 +38,7 @@ const Landing = () => {
             </div>
             <br />
             <div>
-                <h5><u>Contact Us:</u> </h5><h6>arth48414@gmail.com</h6>
+                <h5><u>Contact Us:</u> </h5><h6>webmaster@arthnpatel.com</h6>
                 <br />
             </div>
 

@@ -19,8 +19,8 @@ const ContactUs = () => {
                 <h5>We usually respond within 24 hours!</h5>
                 
 
-                <h5>Email : <b><u>arth48414@gmail.com</u></b></h5>
-                <br />
+                <h5> General Help: <b><u><a href="mailto:webmaster@arthnpatel.com">webmaster@arthnpatel.com</a></u></b></h5>
+                <h5> Login Help: <b><u><a href="mailto:webmaster@arthnpatel.com">oauth@arthnpatel.com</a></u></b></h5>
                 <br />
                 <br />
                 <br />
