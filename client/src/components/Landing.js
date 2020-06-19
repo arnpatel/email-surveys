@@ -7,8 +7,23 @@ const Landing = () => {
     return (
 
         document.body.style.background = "#e0f2f1",
-            <div style={{ textAlign: 'center' }} className="black-text teal lighten-5" >
+        
+
+        <div style={{ textAlign: 'center' }} className="black-text teal lighten-5" >
+
+
+
+
+
+<div class="container" className="black white-text">
+                <br />
+            <h5>Black Lives Matter!</h5>
+            <br />
+            </div>
             
+          
+          
+          
             <h1 style={{color: 'black'}}><b>
                 AP Contact
                 </b>
