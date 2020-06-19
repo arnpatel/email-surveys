@@ -352,7 +352,7 @@ module.exports = (survey) => {
         <tr>
           <td>&nbsp;</td>
           <td class="container">
-            <div class="content">
+            <div class="content" >
   
               <!-- START CENTERED WHITE CONTAINER -->
               <table role="presentation" class="main">
@@ -370,17 +370,34 @@ module.exports = (survey) => {
                               <tr>
                                 <td align="left">
                                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                                    <tbody>
+                                    <tbody style="text-align: center">
                                       <tr>
                                         <td> <a href="${keys.redirectDomain}/api/surveys/${survey.id}/yes">I do love the service.</a> </td>
-                                        <td> <a href="${keys.redirectDomain}/api/surveys/${survey.id}/no">I do not love the service.</a> </td>
-                                      </tr>
+                                        </tr>
                                     </tbody>
                                   </table>
                                 </td>
                               </tr>
                             </tbody>
                           </table>
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td>
+                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                                  <tbody>
+                                    <tr>
+                                      <td align="left">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                          <tbody style="text-align: center">
+                                            <tr>
+                                              <td> <a href="${keys.redirectDomain}/api/surveys/${survey.id}/no">I Do Not love the service.</a> </td>
+                                              </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                           <p>Thank you for taking the time to read this email. Have a great rest of your day!</p>
                         </td>
                       </tr>
