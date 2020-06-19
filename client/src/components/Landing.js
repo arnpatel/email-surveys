@@ -32,7 +32,7 @@ const Landing = () => {
                 <h5><u>Pricing:</u></h5>
                 <p><i>We understand your needs, No-contract, Prepaid service to bring more accessibility.</i></p>
                 <p><i>1 Dollar a survey - Unlimited receipent attachment.</i></p>
-                <p><i>Dollar 5 - Minimum purcahse value.</i></p>
+                <p><i>Dollar 5 - Minimum purchase value.</i></p>
                 <p><i>Contact us to place a larger one time purchase order.</i></p>
 
             </div>
