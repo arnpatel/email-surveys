@@ -93,7 +93,7 @@ const Privacy = () => {
 
 <p><b><u>8. DO WE COLLECT INFORMATION FROM MINORS?</u></b></p>
 <p>In Short:  We do not knowingly collect data from or market to children under 18 years of age. </p>
-<p>We do not knowingly solicit data from or market to children under 18 years of age. By using the website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at arth16378@gmail.com. </p>
+<p>We do not knowingly solicit data from or market to children under 18 years of age. By using the website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at webmaster@arthnpatel.com. </p>
 
 <p><b><u>9. WHAT ARE YOUR PRIVACY RIGHTS? </u></b></p>
 <p>In Short:  You may review, change, or terminate your account at any time. </p>
