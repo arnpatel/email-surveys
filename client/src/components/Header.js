@@ -63,6 +63,8 @@ class Header extends Component {
             <ul class="sidenav" id="mobile-demo">
             <li><a href="/contact-us">Contact Us</a></li>
             <li><a href="/auth/google">Login With Google</a></li>
+            <li key="2"><a href="/api/logout">Logout</a></li>
+            
           </ul>
                   
             </div>
