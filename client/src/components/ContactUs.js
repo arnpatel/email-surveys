@@ -21,7 +21,7 @@ const ContactUs = () => {
 
                 <h5> General Help: <b><u><a href="mailto:support@arthnpatel.com">support@arthnpatel.com</a></u></b></h5>
                 <h5> Login Help: <b><u><a href="mailto:webmaster@arthnpatel.com">oauth@arthnpatel.com</a></u></b></h5>
-                <h5> Webmaster: <b><u><a href="mailto:webmaster@arthnpatel.com">admin@arthnpatel.com</a></u></b></h5>
+                <h5> Webmaster: <b><u><a href="mailto:webmaster@arthnpatel.com">webmaster@arthnpatel.com</a></u></b></h5>
                 <br />
                 <br />
                 <br />
