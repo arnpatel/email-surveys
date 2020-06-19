@@ -68,7 +68,7 @@ const Landing = () => {
 
             
 
-        <CookieConsent>By tapping on 'I Understand', you agree to us and our partners' use of cookies and other technologies to process your personal data to personalize your experience and deliver tailored adversiting to you, on and off our sites. Please read our <a href='/privacy-policy'>Privacy Policy</a> and <a href='/terms-and-conditions' >Terms and Conditions</a></CookieConsent>
+        <CookieConsent>By tapping on 'I Understand', you agree to us and our partners' use of cookies and other technologies to process your personal data to personalize your experience and deliver tailored adversiting to you, on and off our sites. Please read our <a href='/privacy-policy'>Privacy Policy</a> and <a href='/terms-and-conditions' >Terms and Conditions</a>.</CookieConsent>
           
         
         </div>
