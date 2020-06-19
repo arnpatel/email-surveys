@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
 import Payments from './Payments';
 
 class Header extends Component {
@@ -48,7 +47,6 @@ class Header extends Component {
                  className="left brand-logo"
                  style={{ margin: '0 10px'}}
                  >
-                     <i class="material-icons">email</i>
                     AP Contact
                 </a>
                 <ul className="right">
@@ -56,6 +54,8 @@ class Header extends Component {
                 </ul>
                 </div>
             </nav>
+
+            
         );
     }
 

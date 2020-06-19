@@ -14,7 +14,9 @@ class SurveyForm extends Component {
     renderFields() {
         return _.map(formFields, ({ label, name }) => {
             return (
+                <b>
             <Field key={name} component={SurveyField} type="text" label={label} name={name} />
+            </b>
             );
         });
     }
@@ -22,6 +24,7 @@ class SurveyForm extends Component {
     render() {
         return (
             <div style={{ margin: '0 45px'}}> 
+            <h4 style={{ textAlign: 'center' }} >New Survey.</h4>
             <Helmet>
                 <title>
                     New Survey | AP Contact

@@ -26,10 +26,10 @@ const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
         <div style={{ margin: '0 45px'}}>
             <Helmet>
                 <title>
-                    Review Entries | AP Contact
+                    New Survey | AP Contact
                 </title>
             </Helmet>
-            <h5>Please confirm your entries.</h5>
+            <h4 style={{ textAlign: 'center' }}>Please confirm your entries.</h4>
             {reviewFields}
            
             <button
