@@ -21,7 +21,7 @@ const Landing = () => {
                 <h5><u>Application Features:</u></h5>
                 <p><i>Send bulk survey emails that reach your users.</i></p>
                 <p><i>Contact our team to get started with some custom templates for your business.</i></p>
-                <p><i>More reviews, More imporovement.</i></p>
+                <p><i>More reviews, More improvement.</i></p>
                 <p><i>Track your services by getting review from users.</i></p>
                 <p><i>Email marketing service that is affordable, easy to use, faster, well, and funner.</i></p>
                 <p><i>We surely help your business reach more customers.</i></p>

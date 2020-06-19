@@ -20,7 +20,7 @@ module.exports = app => {
         });
 
         app.get('/api/surveys/:surveyId/:choice', (req,res) => {
-            res.send('Thanks for Voting!');
+            res.send('Thanks for Voting! We appreciate your valuable time answering the questions. Please be reminded to close THIS window only after 10 SECONDS.');
         });
 
         app.post('/api/surveys/webhooks', (req, res) => {
