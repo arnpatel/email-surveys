@@ -1,10 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Privacy = () => {
 
     return (
         document.body.style.background = "#e0f2f1",
         <div  className="black-text #e0f2f1" >
+            <Helmet><title>
+                Privacy Policy | AP Contact
+                </title></Helmet>
+
             
             <h1 style={{color: 'black'}} style={{ textAlign: 'center' }}><b>
     

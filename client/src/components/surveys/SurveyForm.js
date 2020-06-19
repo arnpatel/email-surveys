@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 import SurveyField from './SurveyField';
 import validateEmails from '../../utils/validateEmails';
 import formFields from './formFields';
+import { Helmet } from 'react-helmet';
+
+
 
 class SurveyForm extends Component {
     renderFields() {
@@ -19,6 +22,11 @@ class SurveyForm extends Component {
     render() {
         return (
             <div style={{ margin: '0 45px'}}> 
+            <Helmet>
+                <title>
+                    New Survey | AP Contact
+                </title>
+            </Helmet>
                 <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                 {this.renderFields()}
                 <Link to="/surveys" className="orange darken-4 btn-flat white-text">

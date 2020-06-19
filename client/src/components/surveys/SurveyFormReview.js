@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import formFields from './formFields';
 import { withRouter } from 'react-router-dom';
 import * as actions from '../../actions';
+import { Helmet } from 'react-helmet';
 
 const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
    
@@ -23,6 +24,11 @@ const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
     return (
 
         <div style={{ margin: '0 45px'}}>
+            <Helmet>
+                <title>
+                    Review Entries | AP Contact
+                </title>
+            </Helmet>
             <h5>Please confirm your entries.</h5>
             {reviewFields}
            

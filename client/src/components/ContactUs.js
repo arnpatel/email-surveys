@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+
 
 const ContactUs = () => {
 
@@ -7,10 +9,11 @@ const ContactUs = () => {
 
         document.body.style.background = "#e0f2f1",
         <div style={{ textAlign: 'center' }} className="black-text #e0f2f1" >
-            
-              <img src="logo.png" alt="" class="circle responsive-img">
-            </img>
-
+            <Helmet>
+                <title>
+                    Contact Us | AP Contact
+                </title>
+            </Helmet>
             <h1 style={{color: 'black'}}>
             <b>
                 Contact Us. 

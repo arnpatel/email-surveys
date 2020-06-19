@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const NotFound = () => {
 
@@ -7,6 +8,11 @@ const NotFound = () => {
 
         document.body.style.background = "#e0f2f1",
         <div style={{ textAlign: 'center' }} className="black-text #e0f2f1" >
+            <Helmet>
+                <title>
+                    404 Not Found | AP Contact
+                </title>
+            </Helmet>
  
 
             <h1 style={{color: 'black'}}><b>
