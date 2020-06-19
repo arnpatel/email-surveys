@@ -14,7 +14,7 @@ const Privacy = () => {
             </h1>
             <div style={{ textAlign: 'left'}} style={{ margin: '0 45px'}}> 
 
-            <p>Thank you for choosing to be part of our community at AP Contact (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at arth48414@gmail.com.</p>
+            <p>Thank you for choosing to be part of our community at AP Contact (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at webmaster@arthnpatel.com.</p>
 <p>When you visit our website and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our website and our services. </p>
 <p>This privacy policy applies to all information collected through our and/or any related services, sales, marketing or events (we refer to them collectively in this privacy policy as the "Services").</p>
 <p>Please read this privacy policy carefully as it will help you make informed decisions about sharing your personal information with us. </p>
@@ -103,7 +103,7 @@ const Privacy = () => {
 <p>If you would at any time like to review or change the information in your account or terminate your account, you can: </p>
 
 <p>Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, some information may be retained in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with legal requirements. </p>
-<p>Opting out of email marketing: You can unsubscribe from our marketing email list at any time by clicking on the unsubscribe link in the emails that we send or by contacting us using the details provided below. You will then be removed from the marketing email list – however, we will still need to send you service-related emails that are necessary for the administration and use of your account. To otherwise opt-out, you may contact arth48414@gmail.com. </p>
+<p>Opting out of email marketing: You can unsubscribe from our marketing email list at any time by clicking on the unsubscribe link in the emails that we send or by contacting us using the details provided below. You will then be removed from the marketing email list – however, we will still need to send you service-related emails that are necessary for the administration and use of your account. To otherwise opt-out, you may contact webmaster@arthnpatel.com. </p>
 
 <p><b><u>10. CONTROLS FOR DO-NOT-TRACK FEATURES</u></b></p>
 <p>Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy policy. </p>
@@ -117,7 +117,7 @@ const Privacy = () => {
 <p>We may update this privacy policy from time to time. The updated version will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy policy, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information. </p>
 
 <p><b><u>13. HOW CAN YOU CONTACT US ABOUT THIS POLICY? </u></b></p>
-<p>If you have questions or comments about this policy, you may email us at arth48414@gmail.com. </p>
+<p>If you have questions or comments about this policy, you may email us at webmaster@arthnpatel.com. </p>
 
 <p>HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? </p>
 <p>Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking here. We will respond to your request within 30 days. </p>

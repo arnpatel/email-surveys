@@ -225,7 +225,7 @@ const Terms = () => {
 
 <p>AP Contact</p>
 <p>United States</p>
-<p>arth48414@gmail.com</p>
+<p>webmaster@arthnpatel.com</p>
 
 
 
