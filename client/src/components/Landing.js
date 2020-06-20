@@ -17,7 +17,7 @@ const Landing = () => {
 
 <div class="container" className="black white-text">
                 <br />
-            <h5>Black Lives Matter!</h5>
+                <h5>Black Lives Matter!</h5>
             <br />
             </div>
             
