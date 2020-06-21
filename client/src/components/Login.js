@@ -18,7 +18,7 @@ const Login = () => {
             
             <h4 style={{color: 'black'}} style={{ textAlign: 'center' }}>
             <br />
-            <b> Connecting to AP Contact ...</b> </h4>  <br />
+            <b> Connecting to AP Contact</b> </h4>  <br />
                 <h5 style={{ textAlign: 'center' }}>Log in to save your surveys. We won't post anything anywhere.</h5>
                 
             <br />
