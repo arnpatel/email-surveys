@@ -12,10 +12,6 @@ const Login = () => {
                     Login | AP Contact
                 </title>
             </Helmet>
-            <div class="progress">
-      <div class="indeterminate"></div>
-  </div>
-            
             <h4 style={{color: 'black'}} style={{ textAlign: 'center' }}>
             <br />
             <b> Connecting to AP Contact</b> </h4>  <br />
