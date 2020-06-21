@@ -11,8 +11,8 @@ import SurveyNew from './surveys/SurveyNew';
 import Privacy from './Privacy';
 import Terms from './Terms';
 import NotFound from './NotFound';
-import ContactUs from './ContactUs'
-import MyCredits from './MyCredits'
+import ContactUs from './ContactUs';
+import Login from './Login';
 
 class App extends Component {
     componentDidMount() {
@@ -36,7 +36,7 @@ class App extends Component {
                     <Route path="/privacy-policy" component={Privacy} />
                     <Route path="/terms-and-conditions" component={Terms} />
                     <Route path="/contact-us" component={ContactUs} />
-                    <Route path="/my-credits" component={MyCredits} />
+                    <Route path="/login" component={Login} />
                     <Route path="*" component={NotFound} />
                     
                         </Switch>

@@ -21,17 +21,19 @@ class Header extends Component {
                 return [
                     <div>
                     <li><a href="/contact-us">Contact Us</a></li>
-                    <li><a href="/auth/google">Login With Google</a></li>
+                    <li><a href="/login">Login</a></li>
                     </div>
                 ];
             
             default:
                 return [
                     <li key="1"><Payments /></li>,
+                    <li key="4"><a href='/surveys'>Dashboard</a></li>,
                     <li key="3" style={{ margin: '0 10px'}}>
                         Credits: {this.props.auth.credits}
                     </li>,
-                    <li key="4"><a href='/surveys'>Dashboard</a></li>,
+                    <li><a href="/contact-us">Contact Us</a></li>,
+                    
                 <li key="2"><a href="/api/logout">Logout</a></li>
                 ];
         }
