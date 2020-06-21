@@ -5,12 +5,16 @@ const Login = () => {
     return (
 
         document.body.style.background = "#e0f2f1",
+        
         <div  className="black-text #e0f2f1" >
             <Helmet>
                 <title>
                     Login | AP Contact
                 </title>
             </Helmet>
+            <div class="progress">
+      <div class="indeterminate"></div>
+  </div>
             
             <h4 style={{color: 'black'}} style={{ textAlign: 'center' }}>
             <br />
@@ -28,7 +32,6 @@ const Login = () => {
             <p style={{ textAlign: 'center' }}><a href="/privacy-policy"> Privacy Policy</a> and <a href="terms-and-conditions"> Terms And Conditions</a></p>
         
 
-            <br />
             <br />
             <br />
             <br />
