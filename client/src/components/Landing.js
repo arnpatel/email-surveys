@@ -66,7 +66,15 @@ const Landing = () => {
 
             
 
-        <CookieConsent>This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember you. We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors both on this website and other media. To find out more about the cookies we use, see our <a href='/privacy-policy'>Privacy Policy</a> and <a href='/terms-and-conditions' >Terms and Conditions</a>.</CookieConsent>
+        <CookieConsent
+        location="bottom"
+        buttonText="Ok"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={150}
+        >
+            We use cookies to ensure that we give you the best experience on our website. If you continue to use this site, We will assume that you are happy with it.</CookieConsent>
           
         
         </div>
