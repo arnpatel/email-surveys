@@ -43,7 +43,6 @@ const NotFound = () => {
             <br />
             <br />
             <br />
-            <br />
 
             <div class="container" className="cyan darken-3 white-text">
                 <br />
