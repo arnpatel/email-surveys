@@ -24,7 +24,7 @@ class Dashboard extends Component {
                      </b>
                         </h1>
 
-<a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/login">Login</a>
+    <a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/login">Login</a>
 
                     </div>
                 ];
@@ -34,7 +34,7 @@ class Dashboard extends Component {
                    
                   
                     <div>
-                    <h5 style={{ textAlign: 'center'}}>Hello, <b>{this.props.auth.googleDisplayName}</b>.  These are your survey histories.</h5>
+                    <h5 style={{ textAlign: 'center'}}>Hello, {this.props.auth.googleDisplayName}.  These are your survey histories.</h5>
                 <div >
                     <Helmet>
                         <title>
