@@ -24,6 +24,8 @@ const NotFound = () => {
                 </b>
             </h1>
 
+            <a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/">Homepage</a>
+
 
             <br />
             <br />
@@ -45,7 +47,7 @@ const NotFound = () => {
 
             <div class="container" className="cyan darken-3 white-text">
                 <br />
-                <a href='/privacy-policy' className="black-text">Privacy Policy</a>   -   Copyright ©2020 Developed By Arth Patel    -  <a href='/terms-and-conditions' className="black-text">Terms And Conditions.</a>
+                <a href='/privacy-policy' className="black-text">Privacy Policy</a>   -   Copyright ©2020 AP Contact Team    -  <a href='/terms-and-conditions' className="black-text">Terms And Conditions.</a>
                 <br />
                 <br />
                 </div>

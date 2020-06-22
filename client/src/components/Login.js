@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import logo from './logo.png'
 const Login = () => {
 
     return (
@@ -13,8 +14,12 @@ const Login = () => {
                 </title>
             </Helmet>
             <h4 style={{color: 'black'}} style={{ textAlign: 'center' }}>
+
+            <img width="70" height="70" src={logo}></img>
             <br />
-            <b> Connecting to AP Contact</b> </h4>  <br />
+
+            <br />
+            <b> Connecting to the Dashboard.</b> </h4>  <br />
                 <h5 style={{ textAlign: 'center' }}>Log in to save your surveys. We won't post anything anywhere.</h5>
                 
             <br />
@@ -32,17 +37,12 @@ const Login = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-
-
 
 
 
             <div style={{ textAlign: 'center' }} class="container" className="cyan darken-3 white-text">
                 <br />
-            <a href='/privacy-policy' className="black-text">Privacy Policy</a>   -   Copyright ©2020 Developed By Arth Patel    -  <a href='/terms-and-conditions' className="black-text">Terms And Conditions.</a>
+            <a href='/privacy-policy' className="black-text">Privacy Policy</a>   -   Copyright ©2020 AP Contact Team    -  <a href='/terms-and-conditions' className="black-text">Terms And Conditions.</a>
             <br />
             <br />
             </div>
