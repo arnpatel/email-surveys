@@ -21,7 +21,7 @@ class Profile extends Component {
                      </b>
                         </h1>
 
-<a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/login">Login</a>
+                    <a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/login">Login</a>
 
                     </div>
                 ];
@@ -36,13 +36,31 @@ class Profile extends Component {
                 </title></Helmet>
 
             
-            <h1 style={{color: 'black'}} style={{ textAlign: 'center' }}><b>
+            <h1 style={{color: 'black'}} style={{ textAlign: 'center' }}>
     
                 Profile 
-                </b>
             </h1>
+
+
+
+          <div class="center-align">
+    
+              <img src={this.props.auth.googlePhotos} alt="" class="circle responsive-img" height={150} width={150}></img>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
             <div style={{ textAlign: 'left'}} style={{ margin: '0 350px'}}> 
               <h5>      
+
                 <p><b>Name:</b> {this.props.auth.googleDisplayName}</p>
                 <p><b>Email:</b> {this.props.auth.googleEmails}</p>
                 <p><b>Credits:</b> {this.props.auth.credits}</p>

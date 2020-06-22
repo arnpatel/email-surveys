@@ -5,6 +5,7 @@ const userSchema = new Schema({
   googleId: String,
   googleDisplayName: String,
   googleEmails: String,
+  googlePhotos: String,
   credits: { type: Number, default: 0 }
 });
 
