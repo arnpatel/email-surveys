@@ -34,7 +34,7 @@ class Dashboard extends Component {
                    
                   
                     <div>
-                    <h4 style={{ textAlign: 'center'}}>Hello, {this.props.auth.googleDisplayName}.  These are your survey histories.</h4>
+                    <h5 style={{ textAlign: 'center'}}>Hello, <b>{this.props.auth.googleDisplayName}</b>.  These are your survey histories.</h5>
                 <div >
                     <Helmet>
                         <title>
