@@ -13,6 +13,7 @@ import Terms from './Terms';
 import NotFound from './NotFound';
 import ContactUs from './ContactUs';
 import Login from './Login';
+import Profile from './Profile';
 
 class App extends Component {
     componentDidMount() {
@@ -37,6 +38,7 @@ class App extends Component {
                     <Route path="/terms-and-conditions" component={Terms} />
                     <Route path="/contact-us" component={ContactUs} />
                     <Route path="/login" component={Login} />
+                    <Route path="/profile" component={Profile} />
                     <Route path="*" component={NotFound} />
                     
                         </Switch>
