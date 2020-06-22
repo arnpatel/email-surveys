@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet';
 
 const Dashboard = () => {
     return (
+        <div>
+            <h4 style={{ textAlign: 'center'}}><b>Survey History.</b></h4>
         <div >
             <Helmet>
                 <title>
@@ -18,6 +20,7 @@ const Dashboard = () => {
                 </Link>
 
             </div>
+        </div>
         </div>
 
     );
