@@ -6,11 +6,10 @@ const Landing = () => {
     return (
 
         document.body.style.background = "#e0f2f1",
-        
 
         <div style={{ textAlign: 'center' }} className="black-text teal lighten-5" >
 
-
+<meta name="description" content="With AP Contact, you can create effective email survey campaigns and also send marketing emails to your customers that fulfill your business goals. We bring to you the simplest web UI to help you send emails. Start your free trial today!" />
 
 
 
