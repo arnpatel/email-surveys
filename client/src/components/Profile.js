@@ -58,7 +58,7 @@ class Profile extends Component {
 
 
 
-            <div style={{ textAlign: 'left'}} style={{ margin: '0 350px'}}> 
+            <div style={{ textAlign: 'center'}} > 
               <h5>      
 
                 <p><b>Name:</b> {this.props.auth.googleDisplayName}</p>
