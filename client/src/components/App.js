@@ -14,6 +14,7 @@ import NotFound from './NotFound';
 import ContactUs from './ContactUs';
 import Login from './Login';
 import Profile from './Profile';
+import JoinUs from './JoinUs';
 
 class App extends Component {
     componentDidMount() {
@@ -39,7 +40,9 @@ class App extends Component {
                     <Route path="/contact-us" component={ContactUs} />
                     <Route path="/login" component={Login} />
                     <Route path="/profile" component={Profile} />
+                    <Route path="/join-us" component={JoinUs} />
                     <Route path="*" component={NotFound} />
+
                     
                         </Switch>
                     

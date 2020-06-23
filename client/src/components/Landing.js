@@ -1,5 +1,6 @@
 import React from 'react';
 import CookieConsent from "react-cookie-consent";
+import  {Helmet} from 'react-helmet';
 
 const Landing = () => {
 
@@ -8,9 +9,9 @@ const Landing = () => {
         document.body.style.background = "#e0f2f1",
 
         <div style={{ textAlign: 'center' }} className="black-text teal lighten-5" >
-<helmet>
+<Helmet>
 <meta name="description" content="With AP Contact, you can create effective email survey campaigns and also send marketing emails to your customers that fulfill your business goals. We bring to you the simplest web UI to help you send emails. Start your free trial today!" />
-</helmet>
+</Helmet>
 
 
 <div class="container" className="black white-text">
