@@ -32,9 +32,9 @@ class SurveyForm extends Component {
             </Helmet>
                 <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                 {this.renderFields()}
-                <Link to="/surveys" className="orange darken-4 btn-flat white-text">
+                <a href="/surveys" className="orange darken-4 btn-flat white-text">
                 Cancel
-                </Link>
+                </a>
                 <button type="submit" className="teal btn-flat right white-text">
                 Next
                 <i className="material-icons right">done</i>  
