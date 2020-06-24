@@ -21,7 +21,7 @@ class Profile extends Component {
                      </b>
                         </h1>
 
-                    <a href={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="/login">Login</a>
+                    <a href="/login" style={{ textAlign: 'center' }} class="waves-effect waves-light btn" >Login</a>
 
                     </div>
                 ];
