@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
 
@@ -24,39 +25,10 @@ const NotFound = () => {
                 </b>
             </h1>
 
-            <a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/">Homepage</a>
+            <Link style={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="/">Homepage</Link>
 
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <div class="container" className="cyan darken-3 white-text">
-                <br />
-                <a href='/privacy-policy' className="black-text">Privacy Policy</a>   -   Copyright ©2020 AP Contact Team    -  <a href='/terms-and-conditions' className="black-text">Terms And Conditions.</a>
-                <br />
-                <br />
-                </div>
-
-
-
-
-            </div>
-
-
+          </div>  
             
 
         );

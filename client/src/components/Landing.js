@@ -1,5 +1,7 @@
 import React from 'react';
 import CookieConsent from "react-cookie-consent";
+import  {Helmet} from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
 
@@ -7,7 +9,12 @@ const Landing = () => {
 
         document.body.style.background = "#e0f2f1",
 
+
+
         <div style={{ textAlign: 'center' }} className="black-text teal lighten-5" >
+
+<Helmet><title>Get Feedback From Users | AP Contact</title></Helmet>
+
 
 
 <div class="container" className="black white-text">

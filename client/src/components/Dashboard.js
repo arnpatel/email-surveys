@@ -24,7 +24,7 @@ class Dashboard extends Component {
                      </b>
                         </h1>
 
-    <a style={{ textAlign: 'center' }} class="waves-effect waves-light btn" href="/login">Login</a>
+    <Link style={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="/login">Login</Link>
 
                     </div>
                 ];
