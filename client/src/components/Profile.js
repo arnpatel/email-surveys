@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
 
 class Profile extends Component {
 
@@ -22,7 +21,7 @@ class Profile extends Component {
                      </b>
                         </h1>
 
-                    <Link style={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="/login">Login</Link>
+                    <a href={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="/login">Login</a>
 
                     </div>
                 ];

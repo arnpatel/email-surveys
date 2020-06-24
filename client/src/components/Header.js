@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Payments from './Payments';
 import M from  'materialize-css/dist/js/materialize.min.js';
-import { Link } from 'react-router-dom';
 
 class Header extends Component {
 
@@ -21,21 +20,21 @@ class Header extends Component {
             case false:
                 return [
                     <div>
-                    <li><Link to="/join-us">Join Us</Link></li>
-                    <li><Link to="/contact-us">Contact Us</Link></li>
-                    <li><Link to="/login">Login</Link></li>
+                    <li><a href="/join-us">Join Us</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li><a href="/login">Login</a></li>
                     </div>
                 ];
             
             default:
                 return [
                     <li key="1"><Payments /></li>,
-                    <li key="4"><Link to='/surveys'>Dashboard</Link></li>,
+                    <li key="4"><a href='/surveys'>Dashboard</a></li>,
                     <li key="3" style={{ margin: '0 10px'}}>
                         Credits: {this.props.auth.credits}
                     </li>,
-                    <li key="4"><Link to='/profile'>Profile</Link></li>,
-                    <li><Link to="/contact-us">Contact Us</Link></li>,
+                    <li key="4"><a href='/profile'>Profile</a></li>,
+                    <li><a href="/contact-us">Contact Us</a></li>,
                     
                 <li key="2"><a href="/api/logout">Logout</a></li>
                 ];
@@ -51,15 +50,15 @@ class Header extends Component {
             
             <nav>
                 <div className="nav-wrapper cyan darken-3">
-                <Link
-                 to={this.props.auth ? '/surveys' : '/'}
+                <a
+                 href={this.props.auth ? '/surveys' : '/'}
                  className="left brand-logo"
                  style={{ margin: '0 10px'}}
                  >
                      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                      <i class="material-icons">email</i>
                     AP Contact
-                </Link>
+                </a>
                 <ul class="right hide-on-med-and-down">
                     {this.renderContent()}
                 </ul>
