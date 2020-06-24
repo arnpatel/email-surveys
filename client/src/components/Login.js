@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import logo from './logo.png'
+import logo from './logo.png';
+import logo1 from './logo.svg';
 const Login = () => {
 
     return (
@@ -25,9 +26,16 @@ const Login = () => {
             <br />
             <br />
             <br />
-            <div style={{ textAlign: 'center' }}>
-            <a class="waves-effect waves-light btn-large white blue-text" href="/auth/google"><b>Sign in with Google</b></a>
-            </div>
+        <a href="/auth/google">
+          <button class="row valign-wrapper">
+              <img src={logo1} alt="" class="responsive-img" />
+              <span class="black-text" style={{ textAlign: 'center' }}>
+                Sign in with Google
+              </span>
+          </button>
+          </a>
+
+            
             <br />
             <p style={{ textAlign: 'center' }}>Need help with Sign-In?<a href="mailto:oauth@arthnpatel.com"> Login Support</a></p>
             <p style={{ textAlign: 'center' }}><a href="/privacy-policy"> Privacy Policy</a> and <a href="terms-and-conditions"> Terms And Conditions</a></p>
