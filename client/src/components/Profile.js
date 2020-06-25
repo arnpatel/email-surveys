@@ -36,16 +36,16 @@ class Profile extends Component {
                 </title></Helmet>
 
             
-            <h1 style={{color: 'black'}} style={{ textAlign: 'center' }}>
+            <h3 style={{color: 'black'}} style={{ textAlign: 'center' }}>
     
                 Profile 
-            </h1>
+            </h3>
 
 
 
-          <div class="center-align">
+          <div style={{ margin: '0 100px'}}>
     
-              <img src={this.props.auth.googlePhotos} alt="" class="circle responsive-img" height={150} width={150}></img>
+              <img src={this.props.auth.googlePhotos} alt="" class="circle responsive-img" height={130} width={130}></img>
 
       </div>
 
@@ -58,13 +58,13 @@ class Profile extends Component {
 
 
 
-            <div style={{ textAlign: 'center'}} > 
-              <h5>      
+            <div style={{ margin: '0 100px'}}> 
+              <p>      
 
                 <p><b>Name:</b> {this.props.auth.googleDisplayName}</p>
                 <p><b>Email:</b> {this.props.auth.googleEmails}</p>
                 <p><b>Credits:</b> {this.props.auth.credits}</p>
-                </h5>
+                </p>
 
                 <p>We currently have disabled the edit feature to comply with security regulations. Should you need to change your personal details, don't hesitate to contact us. We will be happy to help.</p>
 
