@@ -22,7 +22,6 @@ class Header extends Component {
                     <div>
                     <li><a href="/join-us">Join Us</a></li>
                     <li><a href="/contact-us">Contact Us</a></li>
-                    <li><a href="https://mail.arthnpatel.com">Mail Suite</a></li>
                     <li><a href="/login">Login</a></li>
                     </div>
                 ];
