@@ -27,7 +27,7 @@ const JoinUs = () => {
           <br />
           <h6> Benjamin Franklin once said ‘Tell me and I forget. Teach me and I remember. Involve me and I learn.’</h6> 
               <h6>We are as transparent as glass. We work with NodeJS, React, Redux, Express, MongoDB, and other Front-end and Back-end framework and libraries to bring Full-stack development of this website. </h6>
-                  <h6>Should you think you might be a good fit, Please fill out the form or contact us at <a href="mailto:dev@arthnpatel.com">dev@arthnpatel.com</a>.</h6>
+                  <h6>Should you think you might be a good fit, Please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAFJhpe0q60NjE0mE74rGGlaKTshioiHhFwjTqXmbbFEcGg/viewform">form</a> or contact us at <a href="mailto:dev@arthnpatel.com">dev@arthnpatel.com</a>.</h6>
           
             <br />
             <br />

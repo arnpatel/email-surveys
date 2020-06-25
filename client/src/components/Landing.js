@@ -30,7 +30,7 @@ const Landing = () => {
                 </b>
             </h1>
             <h4>
-                Powerful Email Marketing Made Easy.
+                Powerful email feedbacks made easy.
             </h4>
         <br />
             <div>

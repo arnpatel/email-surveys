@@ -20,6 +20,7 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.2.0",
     "cookie-session": "^1.4.0",
+    "electrode-library-footer-ar": "^1.0.6",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.15",
@@ -28,6 +29,7 @@
     "passport-google-oauth20": "^2.0.0",
     "path-parser": "^2.0.2",
     "react-helmet": "^6.1.0",
+    "react-sticky-footer": "0.1.0-rc3",
     "sendgrid": "^5.2.3",
     "stripe": "^8.63.0"
   }
