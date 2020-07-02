@@ -21,7 +21,13 @@ const NotFound = () => {
                 Page not found. 
                 <h5>The page you requested was not found on this server.</h5>
                 
-                <h6>The URL may have been mistyped or you may have a old link. We apologize for the inconvenience.</h6>
+                <h6>The URL may have been mistyped or you may have a old link. We apologize for the inconvenience.
+        <br />
+        <br />
+        <br />
+                    Server: AP-CONTACT PROD-01
+
+                </h6>
                 </b>
             </h1>
 
