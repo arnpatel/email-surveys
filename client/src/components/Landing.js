@@ -18,7 +18,7 @@ const Landing = () => {
 
 <div class="container" className="black white-text">
                 <br />
-                <h5>Black Lives Matter.</h5>
+                <h5><a href="https://blacklivesmatter.com" className="white-text" target="_blank"> Black Lives Matter.</a></h5>
             <br />
             </div>
             
