@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <h5> Webmaster: <b><u><a href="mailto:webmaster@arthnpatel.com">webmaster@arthnpatel.com</a></u></b></h5>
 
 
-                <h5> Call (North America): <b><u><a href="tel:+14804397967" >1-480-439-7967</a></u></b></h5>
+                <h5> Call: <b><u><a href="tel:+14804397967" >1-480-439-7967</a></u></b></h5>
                 <br />
                 <br />
                 <br />
