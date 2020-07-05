@@ -14,13 +14,6 @@ const Landing = () => {
 
 <Helmet><title>Get Feedback From Users | AP Contact</title></Helmet>
 
-
-
-<div class="container" className="black white-text">
-                <br />
-                <h5><a href="https://blacklivesmatter.com" className="white-text" target="_blank"> Black Lives Matter.</a></h5>
-            <br />
-            </div>
             
           
           
