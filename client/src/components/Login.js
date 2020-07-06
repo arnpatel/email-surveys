@@ -11,7 +11,7 @@ const Login = () => {
         <div  className="black-text #e0f2f1" >
             <Helmet>
                 <title>
-                    Login | AP Contact
+                    Log in | AP Contact
                 </title>
             </Helmet>
             <h4 style={{color: 'black'}} style={{ textAlign: 'center' }}>
