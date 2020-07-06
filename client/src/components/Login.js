@@ -15,8 +15,9 @@ const Login = () => {
                 </title>
             </Helmet>
             <h4 style={{color: 'black'}} style={{ textAlign: 'center' }}>
-
+            <a href="https://www.arthnpatel.com">
             <img width="70" height="70" src={logo}></img>
+            </a>
             <br />
 
             <br />
