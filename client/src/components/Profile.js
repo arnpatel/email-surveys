@@ -45,7 +45,7 @@ class Profile extends Component {
 
 
 
-          <div style={{ margin: '0 130px'}}>
+          <div style={{ margin: '0 100px'}}>
     
               <img src={this.props.auth.googlePhotos} alt="" class="circle responsive-img" height={130} width={130}></img>
 
@@ -60,7 +60,7 @@ class Profile extends Component {
 
 
 
-            <div style={{ margin: '0 130px'}}> 
+            <div style={{ margin: '0 100px'}}> 
               <p>      
                 <p><b>Name:</b> {this.props.auth.googleDisplayName}</p>
                 <p><b>Email:</b> {this.props.auth.googleEmails}</p>
