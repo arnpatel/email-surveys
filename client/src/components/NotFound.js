@@ -30,7 +30,7 @@ const NotFound = () => {
                 </b>
             </h1>
 
-            <a href style={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="https://www.arthnpatel.com">Homepage</a>
+            <a href="https://www.arthnpatel.com" style={{ textAlign: 'center' }} class="waves-effect waves-light btn" >Homepage</a>
 
 
           </div>  
