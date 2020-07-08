@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
 
 const NotFound = () => {
 
@@ -31,7 +30,7 @@ const NotFound = () => {
                 </b>
             </h1>
 
-            <Link style={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="/">Homepage</Link>
+            <a href style={{ textAlign: 'center' }} class="waves-effect waves-light btn" to="https://www.arthnpatel.com">Homepage</a>
 
 
           </div>  
