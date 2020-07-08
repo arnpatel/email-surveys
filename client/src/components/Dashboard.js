@@ -38,7 +38,7 @@ class Dashboard extends Component {
                 <div >
                     <Helmet>
                         <title>
-                            Dashboard | AP Contact
+                        {this.props.auth.googleDisplayName} | AP Contact
                         </title>
                     </Helmet>
                     <SurveyList />
