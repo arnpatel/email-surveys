@@ -32,11 +32,16 @@ renderSurveys() {
             document.body.style.background = "#e0f2f1",
                 <div className="card grey darken-1 white-text " key={survey._id} style={{ margin: '15px'}}>
                     <div className="card-content">
-                    <span className="card-title">Survey title:{survey.title}, Id:{survey._id} </span>
-                    <p>Email subject:{survey.subject}</p>
-                    <p>Email body:{survey.body}</p>
+                    <span className="card-title">survey title:{survey.title}, Id:{survey._id} </span>
+                    <p>subject: {survey.subject}</p>
+                    <p>body: {survey.body}</p>
+                    <p>
+                    <p className="left">
+                        survey id: {survey._id}
+                        </p>
                     <p className="right">
                         Sent On: {new Date (survey.dateSent).toLocaleString(`en-US`)}
+                        </p>
                         </p>
                         </div>
                     <div className="card-action">
