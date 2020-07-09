@@ -2,7 +2,6 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
-import { Link } from 'react-router-dom';
 import SurveyField from './SurveyField';
 import validateEmails from '../../utils/validateEmails';
 import formFields from './formFields';
@@ -23,6 +22,7 @@ class SurveyForm extends Component {
 
     render() {
         return (
+            document.body.style.background = "#e0f2f1",
             <div style={{ margin: '0 45px'}}> 
             <h4 style={{ textAlign: 'center' }} >New Survey.</h4>
             <Helmet>

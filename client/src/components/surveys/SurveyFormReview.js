@@ -22,7 +22,7 @@ const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
    
    
     return (
-
+        document.body.style.background = "#e0f2f1",
         <div style={{ margin: '0 45px'}}>
             <Helmet>
                 <title>
