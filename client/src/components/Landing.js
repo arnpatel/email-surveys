@@ -25,6 +25,8 @@ const Landing = () => {
             <h4>
                 Powerful email feedbacks made easy.
             </h4>
+            <br />
+        <h5><u><a href="/login">Get Started ></a></u></h5>
         <br />
             <div>
                 <h5><u>Application Features:</u></h5>
