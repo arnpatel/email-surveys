@@ -49,7 +49,6 @@ renderSurveys() {
                     <div className="card-action">
                         <a>Yes: {survey.yes}</a>
                         <a>No: {survey.no}</a>
-                        <a href="#">
                     <Collapsible trigger="Expand to see graphical version ↓" className="center">
                         
                     <RadialBarChart width={500} height={300} cx={150} cy={150} innerRadius={20} outerRadius={140} barSize={10} data={data}>
@@ -57,7 +56,6 @@ renderSurveys() {
         <Legend iconSize={10} width={120} height={140} layout="vertical" verticalAlign="middle" wrapperStyle={style} />
       </RadialBarChart>
                     </Collapsible>
-                    </a>
                     </div>
                 </div>
         );
