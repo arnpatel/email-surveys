@@ -49,7 +49,7 @@ renderSurveys() {
                     <div className="card-action">
                         <a>Yes: {survey.yes}</a>
                         <a>No: {survey.no}</a>
-                    <Collapsible trigger="Expand to see graphical version ↓" className="center">
+                    <Collapsible trigger="Expand to see graphical version ↓" className="center"> 
                         
                     <RadialBarChart width={500} height={300} cx={150} cy={150} innerRadius={20} outerRadius={140} barSize={10} data={data}>
         <RadialBar minAngle={15} label={{ position: 'insideStart', fill: '#fff' }} background clockWise dataKey="uv" />

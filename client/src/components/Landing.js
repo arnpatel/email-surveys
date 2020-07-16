@@ -18,31 +18,31 @@ const Landing = () => {
           
           
           
-            <h1 style={{color: 'black'}}><b>
+            <h2 style={{color: 'black'}}><b>
                 AP Contact
                 </b>
-            </h1>
+            </h2>
             <h4>
                 Powerful email feedbacks made easy.
             </h4>
             <br />
             <div>
                 <h5><u>Application Features:</u></h5>
-                <p><i>Send bulk survey emails that reach your users.</i></p>
-                <p><i>Contact our team to get started with some custom templates for your business.</i></p>
-                <p><i>More reviews, More improvement.</i></p>
-                <p><i>Track your services by getting review from users.</i></p>
-                <p><i>Email marketing service that is affordable, easy to use, faster, well, and funner.</i></p>
-                <p><i>We surely help your business reach more customers.</i></p>
+                <p>Send bulk survey emails that reach your users.</p>
+                <p>Contact our team to get started with some custom templates for your business.</p>
+                <p>More reviews, More improvement.</p>
+                <p>Track your services by getting review from users.</p>
+                <p>Email marketing service that is affordable, easy to use, faster, well, and funner.</p>
+                <p>We surely help your business reach more customers.</p>
 
             </div>
             <br />
             <div>
                 <h5><u>Pricing:</u></h5>
-                <p><i>We understand your needs, No-contract, Prepaid service to bring more accessibility.</i></p>
-                <p><i>1 Dollar a survey - Unlimited receipent attachment.</i></p>
-                <p><i>Dollar 5 - Minimum purchase value.</i></p>
-                <p><i>Contact us to place a larger one time purchase order.</i></p>
+                <p>We understand your needs, No-contract, Prepaid service to bring more accessibility.</p>
+                <p>1 Dollar a survey - Unlimited receipent attachment.</p>
+                <p>Dollar 5 - Minimum purchase value.</p>
+                <p>Contact us to place a larger one time purchase order.</p>
 
             </div>
             <br />
