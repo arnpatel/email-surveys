@@ -51,6 +51,11 @@ const Landing = () => {
                 <br />
             </div>
 
+            <div><p ><a href='https://status.arthnpatel.com' className="black-text">
+                System Status
+                </a>
+                </p></div>
+
         
 
             <div class="container" className="cyan darken-3 white-text">
