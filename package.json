@@ -20,6 +20,7 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.2.0",
     "cookie-session": "^1.4.0",
+    "cookies-eu-banner": "^2.0.1",
     "electrode-library-footer-ar": "^1.0.6",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
