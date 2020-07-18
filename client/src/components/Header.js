@@ -20,6 +20,7 @@ class Header extends Component {
             case false:
                 return [
                     <div>
+                    <li><a href="https://forum.arthnpatel.com">Community Forum</a></li>
                     <li><a href="/join-us">Join Us</a></li>
                     <li><a href="/contact-us">Contact Us</a></li>
                     <li><a href="/login">Log in</a></li>
@@ -34,6 +35,7 @@ class Header extends Component {
                         Credits: {this.props.auth.credits}
                     </li>,
                     <li key="4"><a href='/profile'>Profile</a></li>,
+                    <li><a href="https://forum.arthnpatel.com">Community Forum</a></li>,
                     <li><a href="/contact-us">Contact Us</a></li>,
                     
                 <li key="2"><a href="/api/logout">Logout</a></li>
