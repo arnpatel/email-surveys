@@ -1,6 +1,7 @@
 import React from 'react';
 import CookieConsent from "react-cookie-consent";
 import  {Helmet} from 'react-helmet';
+import logo from './github.svg';
 
 const Landing = () => {
 
@@ -55,6 +56,12 @@ const Landing = () => {
                 System Status
                 </a>
                 </p></div>
+
+            <div>
+                <a href="https://github.com/arnpatel">
+            <img width="25" height="25" src={logo}></img>
+            </a>
+            </div>
 
         
 
