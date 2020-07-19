@@ -27,6 +27,8 @@ const Landing = () => {
                 Powerful email feedbacks made easy.
             </h4>
             <br />
+            <h6 ><b><a href="/login" className="black-text">Get Started ></a></b></h6>
+            <br />
             <div>
                 <h5><u>Application Features:</u></h5>
                 <p>Send bulk survey emails that reach your users.</p>
