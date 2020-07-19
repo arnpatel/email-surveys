@@ -59,7 +59,7 @@ const Landing = () => {
 
             <div>
                 <a href="https://github.com/arnpatel">
-            <img width="20" height="20" src={logo}></img>
+            <img width="30" height="30" src={logo}></img>
             </a>
             </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import  {Helmet} from 'react-helmet';
+import logo from './slack.svg';
 
 const JoinUs = () => {
 
@@ -30,8 +31,18 @@ const JoinUs = () => {
                   <h6>Should you think you might be a good fit, Please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAFJhpe0q60NjE0mE74rGGlaKTshioiHhFwjTqXmbbFEcGg/viewform">form</a> or contact us at <a href="mailto:dev@arthnpatel.com">dev@arthnpatel.com</a>.</h6>
           
             <br />
-            <br />
-            <br />
+
+            <div>
+                <p>Invited slack login after acceptance:</p>
+                <a href="https://apcontact.slack.com">
+            <img width="35" height="35" src={logo}></img>
+            </a>
+            </div>
+
+
+
+
+
             <br />
             <br />
             <br />
