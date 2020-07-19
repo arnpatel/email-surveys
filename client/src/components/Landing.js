@@ -82,7 +82,7 @@ const Landing = () => {
         buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
         expires={150}
         >
-            We use cookies to ensure that we give you the best experience on our website. If you continue to use this site, We will assume that you are happy with it.</CookieConsent>
+            We use cookies to ensure that we give you the best experience on our website. If you continue to use this site, we will assume that you are happy with it.</CookieConsent>
           
         
         </div>
