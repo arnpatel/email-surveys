@@ -58,7 +58,7 @@ class Header extends Component {
                  style={{ margin: '0 10px'}}
                  >
                      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                     <a href="https://github.com/arnpatel">
+                     <a>
             <img width="25" height="25" src={logo}></img>
             </a>    AP Contact</a>
                 <ul class="right hide-on-med-and-down">
