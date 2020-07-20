@@ -55,7 +55,7 @@ class Header extends Component {
                 <a
                  href={this.props.auth ? '/surveys' : '/'}
                  className="left brand-logo"
-                 style={{ margin: '0 10px'}}
+                 style={{ margin: '0 25px'}}
                  >
                      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                      <a>
