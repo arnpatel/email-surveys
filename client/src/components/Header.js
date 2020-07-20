@@ -20,8 +20,6 @@ class Header extends Component {
             case false:
                 return [
                     <div>
-                    <li><a href="/login">Email Marketing</a></li>
-                    <li><a href="https://chat.arthnpatel.com" >Community Chat<span class="new badge"></span></a></li>
                     <li><a href="/join-us">Join Us</a></li>
                     <li><a href="/contact-us">Contact Us</a></li>
                     <li><a href="/login">Log in</a></li>
