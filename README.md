@@ -11,10 +11,13 @@ Email Survey App is an web application built using the MERN stack for dealing wi
 
 And several included dependencies in the _package.json_ file.
 
+<<<<<<< HEAD
 ## Screenshots
 
 ![What is this](email-surveys.jpg)
 
+=======
+>>>>>>> 3300ec8c1b2bab3146a1d07c9f8a2c12339bc9d2
 ## Installation
 
 Use the package manager _npm_ to install Email Survey App.
