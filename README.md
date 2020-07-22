@@ -16,12 +16,12 @@ And several included dependencies in the _package.json_ file.
 Use the package manager _npm_ to install Email Survey App.
 
 ```npm
-cd email-surveys
+> cd email-surveys
 # For the root directory
-npm install 
+> npm install 
 # For the client directory
-cd client 
-npm install 
+> cd client 
+> npm install 
 ```
 
 ## Preparatory run step
@@ -39,7 +39,7 @@ Also get your API keys from Google OAuth, Sendgrid, and Stripe. Paste all those 
 ```npm
 
 # Following will run both client and server side apps.
-npm run dev 
+> npm run dev 
 
 ```
 
