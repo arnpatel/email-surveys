@@ -17,9 +17,11 @@ Use the package manager _npm_ to install Email Survey App.
 
 ```npm
 cd email-surveys
-npm install # for the root directory
+# For the root directory
+npm install 
+# For the client directory
 cd client 
-npm install # for the client directory
+npm install 
 ```
 
 ## Preparatory run steps
@@ -36,7 +38,8 @@ Also get your API keys from Google OAuth, Sendgrid, and Stripe. Paste all those 
 
 ```npm
 
-npm run dev # this will run both client and server side app.
+# Following will run both client and server side apps.
+npm run dev 
 
 ```
 
@@ -46,4 +49,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
+[MIT](https://en.wikipedia.org/wiki/MIT_License) (c) 2020 Arth Patel
