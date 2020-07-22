@@ -1,6 +1,6 @@
 # Email Survey App
 
-Email Survey App is an web application built using the MERN stack for dealing with sending some business survey email and then further tracking the customer responses from the email using webhooks. [Check out the Demo](https://sheltered-oasis-38500.herokuapp.com/).
+Email Survey App is an web application built using the MERN stack for dealing with sending some business survey email and then further tracking the customer responses from the email using webhooks on a custom dynamic user dashboard. [Check out the Demo](https://sheltered-oasis-38500.herokuapp.com/).
 
 ## Built with
 
