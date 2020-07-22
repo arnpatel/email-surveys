@@ -9,11 +9,11 @@ Email Survey App is an web application built using the MERN stack for dealing wi
 3. [Express JS](https://expressjs.com/)
 4. [Mongo DB](https://www.mongodb.com/)
 
-And several included dependencies in the [package.json] file.
+And several included dependencies in the _package.json_ file.
 
 ## Installation
 
-Use the package manager [npm] to install Email Survey App.
+Use the package manager _npm_ to install Email Survey App.
 
 ```npm
 cd email-surveys
@@ -24,7 +24,7 @@ npm install # for the client directory
 
 ## Preparatory run steps
 
-Under the config folder, add a file called [dev.js].
+Under the config folder, add a file called _dev.js_.
 
 Copy the file content from prod.js to the newly created file - dev.js.
 
