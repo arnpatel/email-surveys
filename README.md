@@ -24,7 +24,7 @@ cd client
 npm install 
 ```
 
-## Preparatory run steps
+## Preparatory run step
 
 Under the config folder, add a file called _dev.js_.
 
